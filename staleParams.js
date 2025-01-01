@@ -1,0 +1,1 @@
+In React Router Dom v6, using the `useParams` hook inside a component that's not directly within a route's component tree can lead to unexpected behavior.  If the parent component doesn't re-render when the URL changes, `useParams` won't update. This often manifests as stale data or a component not reflecting the current URL parameters.
